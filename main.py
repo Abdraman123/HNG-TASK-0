@@ -1,15 +1,10 @@
+import os
+import uvicorn
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from datetime import datetime
-import pytz
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
 
-
-# Create a FastAPI instance
 app = FastAPI()
-
 # Enable CORS (Cross-Origin Resource Sharing)
 app.add_middleware(
     CORSMiddleware,
@@ -27,4 +22,8 @@ def get_info():
         "current_datetime": datetime.now(pytz.utc).isoformat(),
         "github_url": "https://github.com/Abdraman123/HNG-TASK-0"  # Replace with your GitHub repo URL
     }
+# ✅ Use Railway's assigned port or default to 8000
+PORT = int(os.getenv("PORT", 8000))
 
+if __name__ == "__main__":
+    uvicorn.run(app, host="0.0.0.0", port=PORT)
