@@ -21,6 +21,6 @@ def get_info():
     return {
         "email": "ajaniabdulrahman@gmail.com",  # Replace with your actual email
         "current_datetime": datetime.now(pytz.utc).isoformat(),
-        "github_url": "https://github.com/yourusername/your-repo"  # Replace with your GitHub repo URL
+        "github_url": "https://github.com/Abdraman123/HNG-TASK-0"  # Replace with your GitHub repo URL
     }
 
