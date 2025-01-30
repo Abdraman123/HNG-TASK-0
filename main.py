@@ -19,7 +19,7 @@ app.add_middleware(
 def get_info():
     return {
         "email": "ajaniabdulrahman@gmail.com",  # Replace with your actual email
-        "current_datetime": datetime.now(pytz.utc).isoformat(),
+        "current_datetime": datetime.utcnow().isoformat() + "Z",
         "github_url": "https://github.com/Abdraman123/HNG-TASK-0"  # Replace with your GitHub repo URL
     }
 # ✅ Use Railway's assigned port or default to 8000
