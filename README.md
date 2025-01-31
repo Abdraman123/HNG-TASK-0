@@ -54,10 +54,10 @@ API Documentation (Swagger UI): http://127.0.0.1:8000/docs
 This API is deployed on Railway and accessible via:
 
 🔗 Live API Endpoint:
-https://hng-task-0-production-4007.up.railway.app
+(https://hng-task-0-production-a8d4.up.railway.app/)
 
 🔗 API Documentation (Swagger UI):
-https://hng-task-0-production-4007.up.railway.app/docs
+(https://hng-task-0-production-a8d4.up.railway.app/docs)
 ## 🛠 API Documentation
 🟢 Endpoint: GET /
 ✅ Response Format (200 OK)
@@ -117,13 +117,3 @@ Look for any error messages.
 
 ### Hire Developers:
  https://hng.tech/hire/python-developers
- 
- https://hng.tech/hire/csharp-developers
- 
- https://hng.tech/hire/golang-developers
- 
- https://hng.tech/hire/php-developers
- 
- https://hng.tech/hire/java-developers
- 
- https://hng.tech/hire/nodejs-developers
